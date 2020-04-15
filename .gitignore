@@ -3,3 +3,9 @@
 */terraform.tfstate.backup
 */.terraform
 */mykey*
+terraform.tfstate.backup
+terraform.tfstate
+mykey.*
+get-pip.py
+.terraform/plugins/*
+.iam.tf.swp
