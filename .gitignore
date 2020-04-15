@@ -8,5 +8,3 @@ terraform.tfstate
 get-pip.py
 .terraform/plugins/*
 .iam.tf.swp
-
-
