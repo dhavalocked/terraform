@@ -1,10 +1,10 @@
-*/terraform.tfvars
-*/terraform.tfstate
-*/terraform.tfstate.backup
-*/.terraform
-*/mykey*
-
-lambdas/node_modules
 mykey*
+lambdas/node_modules
 lambdas.zip
 .terraform
+terraform.tfstate.backup
+terraform.tfstate
+get-pip.py
+.terraform/plugins/*
+.iam.tf.swp
+

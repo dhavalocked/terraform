@@ -19,7 +19,7 @@ resource "aws_db_instance" "postgres" {
   instance_class          = "db.t2.small"
   identifier              = "postgres"
   name                    = "postgres"
-  username                = "root"          
+  username                = "postgres"          
   password                = var.RDS_PASSWORD 
   db_subnet_group_name    = aws_db_subnet_group.postgres-subnet.name
   parameter_group_name    = aws_db_parameter_group.postgres-parameters.name
