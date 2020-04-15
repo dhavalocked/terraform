@@ -13,3 +13,6 @@ variable "PATH_TO_PUBLIC_KEY" {
 variable "RDS_PASSWORD" {
 } 
 
+variable runtime {
+  default = "nodejs10.x"
+}
