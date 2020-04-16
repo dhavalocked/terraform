@@ -110,7 +110,7 @@ resource "aws_elastic_beanstalk_environment" "app-prod" {
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
     name      = "RDS_PORT"
-    value     = split( ":", aws_db_instance.postgres.endpoint)[0]
+    value     = split( ":", aws_db_instance.postgres.endpoint)[1]
   }
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
